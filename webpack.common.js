@@ -29,7 +29,7 @@ module.exports = {
       logo: "./app/favicon.png",
       cache: true,
       favicons: {
-        appName: "a11ybar",
+        appName: "starter V2",
         appDescription: "Automate Weekly Innovation Briefings",
         developerName: "Nexton",
         developerURL: "https://mktgarchitects.com/",

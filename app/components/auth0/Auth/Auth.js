@@ -1,6 +1,5 @@
 import history from "../history";
 import auth0 from "auth0-js";
-import { AUTH_CONFIG } from "./auth0-variables";
 import settings from "../../../config/settings";
 import {
   LOCAL_STORAGE_JWT,
@@ -15,9 +14,9 @@ export default class Auth {
   expiresAt;
 
   auth0 = new auth0.WebAuth({
-    domain: AUTH_CONFIG.domain,
-    clientID: AUTH_CONFIG.clientId,
-    redirectUri: settings.SERVICE.host + AUTH_CONFIG.callbackUrl,
+    domain: settings.AUTH0_CONFIG.domain,
+    clientID: settings.AUTH0_CONFIG.clientId,
+    redirectUri: settings.SERVICE.host + settings.AUTH0_CONFIG.callbackUrl,
     responseType: "token id_token",
     scope: "openid profile"
   });

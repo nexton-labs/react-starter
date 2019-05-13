@@ -45,10 +45,6 @@ export const COLORS = {
   GREY: "#758199"
 };
 
-export const HOST_URL = "https://d2m9yjg33t01fl.cloudfront.net";
-
-export const SCRIPT_URL = "a11ybar.min.js";
-
 export const SUCCESS_SAVE_MESSAGE = "Changes saved successfully!";
 
 export const ERROR_SAVE_MESSAGE =
@@ -64,6 +60,3 @@ export const NOTIFICATION_TIMEOUT = 2000;
 export const GRAPH_DATE_REFERENCE_FORMAT = "MMM YY";
 
 export const GRAPH_TITLE_DATE_FORMAT = "DD MMM YYYY";
-
-export const GRAPH_NOT_DATA =
-  "There isn’t any data yet. Please check back after your new A11ybar is viewed a few times on your website.";

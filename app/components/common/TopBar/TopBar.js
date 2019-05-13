@@ -14,7 +14,7 @@ export const TopBar = ({ session }) => {
       >
         <i className="fa fa-bars text-white" />
       </button>
-      <h2 className="ml-auto text-white">A11yBar</h2>
+      <h2 className="ml-auto text-white">Starter V2</h2>
     </div>
   );
 };

@@ -21,7 +21,7 @@ module.exports = {
     [
       "./node_modules/jest-html-reporter",
       {
-        pageTitle: "a11ybar Test Report",
+        pageTitle: "starter V2 Test Report",
         outputPath: `${buildLogFolder}/test-results.html`,
         includeFailureMsg: true,
         includeConsoleLog: true,

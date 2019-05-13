@@ -5,12 +5,9 @@ import Callback from "./components/auth0/Callback/Callback";
 import Auth from "./components/auth0/Auth/Auth";
 import App from "./components/App";
 
+import HomePage from "./components/pages/Home/HomePage";
 import ErrorPage from "./components/pages/Error/ErrorPage";
 import NotFoundPage from "./components/pages/NotFound/NotFoundPage";
-
-import BarSettingsPage from "./components/pages/BarSettings/BarSettingsPage";
-import AccountPage from "./components/pages/Account/AccountPage";
-import StatsPage from "./components/pages/Stats/StatsPage";
 
 export default class {
   constructor(store, userActions) {
@@ -31,22 +28,12 @@ export default class {
           <AuthenticateRoute
             path="/"
             exact
-            component={BarSettingsPage}
+            component={HomePage}
             auth={this.auth}
           />
           <AuthenticateRoute
-            path="/bar-settings"
-            component={BarSettingsPage}
-            auth={this.auth}
-          />
-          <AuthenticateRoute
-            path="/account"
-            component={AccountPage}
-            auth={this.auth}
-          />
-          <AuthenticateRoute
-            path="/stats"
-            component={StatsPage}
+            path="/HomePage"
+            component={HomePage}
             auth={this.auth}
           />
           <Route
