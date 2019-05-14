@@ -2,8 +2,8 @@ const PROD = "https://api.a11ybar.net/service";
 const DEV = "https://api-dev.a11ybar.net/service";
 
 const AUTH0_CONFIG = {
-  domain: "a11ybar.auth0.com",
-  clientId: "W107EnTpgZJj53If4i7mAVAihu7RsaUA",
+  domain: "nexton-testing.auth0.com",
+  clientId: "LYjFdFMKpfotY4hHTMUo9Me2bfJyxrfg",
   callbackUrl: "/callback"
 };
 
