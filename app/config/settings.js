@@ -1,5 +1,5 @@
-const PROD = "https://api.a11ybar.net/service";
-const DEV = "https://api-dev.a11ybar.net/service";
+const PROD = "http://localhost:3030/service"; // TODO: Replace later.
+const DEV = "http://localhost:3030/service"; // TODO: Replace later.
 
 const AUTH0_CONFIG = {
   domain: "nexton-testing.auth0.com",
