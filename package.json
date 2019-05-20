@@ -17,7 +17,7 @@
     "build:analyze": "webpack-bundle-analyzer buildlog/stats.json dist -l debug",
     "prestart": "npm run validate",
     "prestart:local": "npm run validate",
-    "start": "npm run start:dev",
+    "start": "serve -s build",
     "start:dev": "cross-env NODE_ENV=development webpack-dev-server --open --config webpack.dev.js",
     "start:local": "cross-env NODE_ENV=local webpack-dev-server --open --config webpack.dev.js",
     "lint": "eslint --ext .js --ext .jsx --fix ./app",
