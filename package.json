@@ -27,7 +27,8 @@
     "test:coverage": "jest --coverage --colors",
     "test:watch": "jest --watch",
     "prevalidate": "rimraf buildlog",
-    "validate": "run-p -c lint test:coverage"
+    "validate": "run-p -c lint test:coverage",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.8.6",
