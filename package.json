@@ -41,6 +41,7 @@
     "js-logger": "1.6.0",
     "jwt-decode": "2.2.0",
     "moment": "^2.24.0",
+    "netlify-cli": "^2.11.19",
     "prettier": "^1.16.4",
     "prop-types": "15.7.2",
     "react": "16.8.6",

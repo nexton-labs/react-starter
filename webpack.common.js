@@ -30,9 +30,9 @@ module.exports = {
       cache: true,
       favicons: {
         appName: "starter V2",
-        appDescription: "Automate Weekly Innovation Briefings",
-        developerName: "Nexton",
-        developerURL: "https://mktgarchitects.com/",
+        appDescription: "Software Boutique",
+        developerName: "nextonlabs.com",
+        developerURL: "http://www.nextonlabs.com/",
         background: "#3e3f3a",
         theme_color: "#3e3f3a",
         icons: {

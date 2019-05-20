@@ -12,7 +12,7 @@ export const Footer = ({ session }) => {
     <footer className="sticky-footer bg-white">
       <div className="container my-auto">
         <div className="copyright text-center my-auto">
-          <span>Copyright &copy; SeamlessDocs 2019</span>
+          <span>Copyright &copy; Nextonlabs 2019</span>
         </div>
       </div>
     </footer>
