@@ -24,12 +24,12 @@ if (process.env.NODE_ENV === "local") {
 
 if (process.env.NODE_ENV === "development") {
   settings.SERVICE.baseurl = DEV;
-  settings.SERVICE.host = "https://nexton-react-starter-v2m.netlify.com";
+  settings.SERVICE.host = "https://nexton-react-starter-v2.netlify.com";
 }
 
 if (process.env.NODE_ENV === "production") {
   settings.SERVICE.baseurl = PROD;
-  settings.SERVICE.host = "https://nexton-react-starter-v2a.netlify.com";
+  settings.SERVICE.host = "https://nexton-react-starter-v2.netlify.com";
 }
 
 export default settings;

@@ -28,7 +28,8 @@
     "test:watch": "jest --watch",
     "prevalidate": "rimraf buildlog",
     "validate": "run-p -c lint test:coverage",
-    "heroku-postbuild": "npm run build:dev"
+    "deploy:dev":  "npm run build:dev && netlify deploy --prod",
+    "deploy:prod": "npm run build:prod && netlify deploy --prod"
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.8.6",
