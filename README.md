@@ -26,7 +26,7 @@ npm start
 
 ## Live URL
 ```https://nexton-react-starter-v2.netlify.com```
-- We're hosting the starterV2 on `Netlify` free account. 
+- We're hosting the starterV2 on [netlify.com](https://app.netlify.com/teams/cristiansoria/sites). 
 
 - ```npm run deploy:dev```
 - ```npm run deploy:prod```
