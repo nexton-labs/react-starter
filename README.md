@@ -24,6 +24,13 @@ npm install
 npm start
 ```
 
+## Live URL
+```https://nexton-react-starter-v2.netlify.com```
+- We're hosting the starterV2 on `Netlify` free account. 
+
+- ```npm run deploy:dev```
+- ```npm run deploy:prod```
+
 ### Dev tools
 
 **run tests**
