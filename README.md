@@ -12,7 +12,7 @@
 - You can point to the local backend with the file **app/config/settings.js**
 - You can set or update cross values in **app/resources/constants.js**
 
-### Commands
+## Commands
 
 **install packages**
 
@@ -33,7 +33,7 @@ npm start
 - ```npm run deploy:dev```
 - ```npm run deploy:prod```
 
-### Dev tools
+## Dev tools
 
 **run tests**
 
@@ -64,8 +64,6 @@ npm run sass-lint
 ```ssh
 npm run build
 ```
-
-## Prerequisites
 
 ## IDE
 
