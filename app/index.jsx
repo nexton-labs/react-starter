@@ -11,7 +11,7 @@ import history from "./components/auth0/history";
 import Routes from "./routes";
 import store from "./store";
 
-// Bootstrap and styles
+// styles
 import "./styles/start-bootstrap.css";
 import "./styles/main.css";
 

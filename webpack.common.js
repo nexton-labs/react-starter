@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WebappWebpackPlugin = require("webapp-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 // Comment this out whenever bundle analyzer is needed:
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 //   .BundleAnalyzerPlugin;
@@ -25,7 +25,7 @@ module.exports = {
     }),
     // Comment this out whenever bundle analyzer is needed:
     // new BundleAnalyzerPlugin(),
-    new WebappWebpackPlugin({
+    new FaviconsWebpackPlugin({
       logo: "./app/favicon.png",
       cache: true,
       favicons: {
