@@ -1,4 +1,8 @@
 # Starter V2
+- React
+- React-Router
+- Redux
+- Auth0
 
 ## Start application
 
@@ -7,8 +11,6 @@
 - By default, the application starts on http://localhost:8080
 - You can point to the local backend with the file **app/config/settings.js**
 - You can set or update cross values in **app/resources/constants.js**
-
- ## Variables
 
 ### Commands
 

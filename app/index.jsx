@@ -12,8 +12,7 @@ import Routes from "./routes";
 import store from "./store";
 
 // Bootstrap and styles
-import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
-import "./styles/sb-admin-2.css";
+import "./styles/start-bootstrap.css";
 import "./styles/main.css";
 
 const routes = new Routes(store, userActions).configureRoutes();

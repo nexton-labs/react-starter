@@ -98,9 +98,7 @@ describe("WHEN USER Reducer", () => {
     expect(newState.isFetching).toBe(false);
   });
 
-  it(`THEN should work when passed ${
-    USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_BEGIN
-  }`, () => {
+  it(`THEN should work when passed ${USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_BEGIN}`, () => {
     // Arrange.
     const action = userActions.verifyOrCreateFromAuth0Request();
 
@@ -111,9 +109,7 @@ describe("WHEN USER Reducer", () => {
     expect(newState.bar.isFetching).toBe(true);
   });
 
-  it(`THEN should work when passed ${
-    USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_SUCCESS
-  }`, () => {
+  it(`THEN should work when passed ${USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_SUCCESS}`, () => {
     // Arrange.
     const dateReceived = Date.now();
     const bar = {
@@ -139,9 +135,7 @@ describe("WHEN USER Reducer", () => {
     expect(newState.bar.receivedAt).toBeGreaterThanOrEqual(dateReceived);
   });
 
-  it(`THEN should work when passed ${
-    USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_FAILED
-  }`, () => {
+  it(`THEN should work when passed ${USER.USER_VERIFY_OR_CREATE_FROM_AUTH0_FAILED}`, () => {
     // Arrange.
     const error = {
       message: "errorMessage"

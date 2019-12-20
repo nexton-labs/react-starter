@@ -46,9 +46,7 @@ describe("GIVEN User Actions", () => {
         });
       });
 
-      it(`THEN should be able to dispatch ${USER.USER_INFO_BEGIN} and ${
-        USER.USER_INFO_SUCCESS
-      }`, () => {
+      it(`THEN should be able to dispatch ${USER.USER_INFO_BEGIN} and ${USER.USER_INFO_SUCCESS}`, () => {
         expect(getUserServiceSpy).toHaveBeenCalledTimes(1);
 
         expect(requestAction).toEqual({
@@ -77,9 +75,7 @@ describe("GIVEN User Actions", () => {
         });
       });
 
-      it(`THEN should be able to dispatch ${USER.USER_INFO_BEGIN} and ${
-        USER.USER_INFO_FAILED
-      }`, () => {
+      it(`THEN should be able to dispatch ${USER.USER_INFO_BEGIN} and ${USER.USER_INFO_FAILED}`, () => {
         expect(actions[2]).toEqual({
           type: USER.USER_INFO_BEGIN
         });
@@ -117,9 +113,7 @@ describe("GIVEN User Actions", () => {
           });
       });
 
-      it(`THEN should be able to dispatch ${USER.USER_UPDATE_BEGIN} and ${
-        USER.USER_UPDATE_SUCCESS
-      } when updateUserAccount() action is call with correct params`, () => {
+      it(`THEN should be able to dispatch ${USER.USER_UPDATE_BEGIN} and ${USER.USER_UPDATE_SUCCESS} when updateUserAccount() action is call with correct params`, () => {
         expect(requestAction).toEqual({
           type: USER.USER_UPDATE_BEGIN
         });
@@ -151,9 +145,7 @@ describe("GIVEN User Actions", () => {
         });
       });
 
-      it(`THEN should be able to dispatch ${USER.USER_UPDATE_BEGIN} and ${
-        USER.USER_UPDATE_FAILED
-      }`, () => {
+      it(`THEN should be able to dispatch ${USER.USER_UPDATE_BEGIN} and ${USER.USER_UPDATE_FAILED}`, () => {
         expect(requestAction).toEqual({
           type: USER.USER_UPDATE_BEGIN
         });

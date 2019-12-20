@@ -20,9 +20,7 @@ describe("GIVEN Status Actions", () => {
         });
       });
 
-      it(`THEN should be able to dispatch ${
-        STATUS.HANDLE_STATUS_RESET_SUCCESS
-      }`, () => {
+      it(`THEN should be able to dispatch ${STATUS.HANDLE_STATUS_RESET_SUCCESS}`, () => {
         expect(successAction).toEqual({
           type: STATUS.HANDLE_STATUS_RESET_SUCCESS
         });

@@ -1,13 +1,13 @@
 {
   "name": "starter-v2",
   "version": "0.1.0",
-  "description": "React+Redux",
+  "description": "React+Redux+Auth0",
   "homepage": "https://github.com/nexton-labs/react-starter-v2",
   "author": "nextonlabs",
   "license": "MIT",
   "engines": {
-    "node": "10.0.0",
-    "npm": "5.7.1"
+    "node": "10.13.0",
+    "npm": "6.4.1"
   },
   "scripts": {
     "prebuild": "npm run validate",

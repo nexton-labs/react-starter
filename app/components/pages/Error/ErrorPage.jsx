@@ -52,7 +52,4 @@ function mapDispatchToProperties(dispatch) {
   };
 }
 
-export default connect(
-  null,
-  mapDispatchToProperties
-)(ErrorPage);
+export default connect(null, mapDispatchToProperties)(ErrorPage);

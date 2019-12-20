@@ -3,10 +3,6 @@ Description of what you were asked to do.
 Try to be as detailed as possible.
 The idea is to give enough background to the reviewer so he can do the code review.
 
-## Changes done
-- `fileA.js` - added constants import
-- `fileB.js` - added export default
-
 ## Pending to be done
 N/A.
 
