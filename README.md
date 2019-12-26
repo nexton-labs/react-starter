@@ -1,4 +1,4 @@
-# Starter V2
+# React Starter V2
 - React
 - React-Router
 - Redux
@@ -6,7 +6,7 @@
 
 ## Start application
 
-- Install packages `npm install` or `yarn install`
+- Install packages: `npm install` or `yarn install`
 - Run app locally: `npm start:local` or `yarn start:local`
 - By default, the application starts on http://localhost:8080
 - You can point to the local backend with the file **app/config/settings.js**
@@ -23,7 +23,7 @@ npm install
 **start app**
 
 ```ssh
-npm start
+npm start:local
 ```
 
 ## Live URL
