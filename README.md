@@ -1,7 +1,7 @@
 ⛔️ DEPRECATED
-See https://github.com/nexton-labs/crossing-minds
+See https://github.com/nexton-labs/react-starter-v2
 
-# React Starter V1
+# Stack
 - React
 - React-Router
 - Redux
