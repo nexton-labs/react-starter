@@ -5,7 +5,9 @@ See https://github.com/nexton-labs/react-starter-v2
 - React
 - React-Router
 - Redux
+- Redux Thunk
 - Auth0
+- Bootstrap/ reactstrap
 
 ## Start application
 
