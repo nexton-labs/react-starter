@@ -1,4 +1,7 @@
-# React Starter V2
+⛔️ DEPRECATED
+See https://github.com/nexton-labs/crossing-minds
+
+# React Starter V1
 - React
 - React-Router
 - Redux
